@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1325ad04-cf2e-40ff-ad8c-7c9950df54ea/ddjnnqb-e87b0e31-8c57-4b60-be4f-0b17266f7832.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMTMyNWFkMDQtY2YyZS00MGZmLWFkOGMtN2M5OTUwZGY1NGVhXC9kZGpubnFiLWU4N2IwZTMxLThjNTctNGI2MC1iZTRmLTBiMTcyNjZmNzgzMi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.NT9i2ds-V6YI1NI8ZyHXwrKF_Xbtqk2wA64dBiaBaYE");
+}
+
+.global-container{
+    width: 100vw;
+    height: 100vh;
+    border: 15px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+    height: 90%;
+    border: 15px solid rgb(7, 6, 6);;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.431);
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(250, 227, 23);
+    border-radius: 10px;
+  }
+
+.form-container{
+    width: 75%;
+    height: 90%;
+    padding-top: 25px;
+   
+}
+
+.tittle{
+    text-align: center;
+}
+
+
+
+.form-group{
+    color: rgb(2, 1, 1);
+    font-size: 25px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+
+.form-control{
+    width: 100%;
+    height: 45px;
+    border: 2px solid rgb(2, 2, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+
+.button{
+    margin-top: 25px;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    font-size: 20px;
+   
+}
+
+/* TABLE */
+
+.table-container{
+    width: 100%;
+   margin-top: 25px;
+   border-top: 3px solid rgb(62, 180, 82);
+   border-bottom: 3px solid rgb(62, 180, 82);
+   font-size: 25px;
+    
+}
+
+.table{
+    width: 100%;
+    
+}
+
+/* Js Syles  */
+.alert{
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(17, 17, 17);
+    background-color: rgba(253, 4, 4, 0.692);
+    border-radius: 5px;
+    border: 1px solid rgb(26, 23, 23);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.alert2{
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(17, 17, 17);
+    background-color: rgba(34, 206, 48, 0.692);
+    border-radius: 5px;
+    border: 1px solid rgb(26, 23, 23);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.alert3{
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(17, 17, 17);
+    background-color: rgba(34, 206, 48, 0.692);
+    border-radius: 5px;
+    border: 1px solid rgb(26, 23, 23);
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#libro-list{
+    
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.delete{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
